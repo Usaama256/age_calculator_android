@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:background="#F3D6AC"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULATE YOUR"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFA0522D"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="00dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/DeepSkyBlue"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="AGE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDOB"
+            android:layout_width="500sp"
+            android:layout_height="wrap_content"
+            android:text="TAP TO SELECT BIRTH DATE"
+            android:textColor="@color/White"
+            android:background="@color/OrangeRed"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ED8A5A"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvDOB"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Date"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFA0522D"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ED8A5A"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvAge"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Age"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFA0522D"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ED8A5A"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvNextBd"
+            />
+
+        <TextView
+            android:id="@+id/tvToNextBDtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFA0522D"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="About"
+            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:background="@color/OrangeRed"
+            android:id="@+id/btnAbout"
+            />
+        </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
